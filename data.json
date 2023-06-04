@@ -1,0 +1,123 @@
+{
+    "Rowsets": {
+        "DateCreated": "2023-05-28T10:59:41",
+        "Version": "15.1 SP6 Patch 46 (Sep 20, 2019)",
+        "StartDate": "2023-05-28T09:59:41+0400",
+        "EndDate": "2023-05-28T10:59:41+0400",
+        "CachedTime": "",
+        "Rowset": [
+            {
+                "Columns": {
+                    "Column": [
+                        {
+                            "Name": "Prod_Order",
+                            "SourceColumn": "Prod_Order",
+                            "Description": "",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "Sales_Order",
+                            "SourceColumn": "Sales_Order",
+                            "Description": "",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "SO_Item",
+                            "SourceColumn": "SO_Item",
+                            "Description": "",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "Customer",
+                            "SourceColumn": "Customer",
+                            "Description": "",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "Cust_LongText",
+                            "SourceColumn": "Cust_LongText",
+                            "Description": "",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "WidthMin",
+                            "SourceColumn": "WidthMin",
+                            "Description": "",
+                            "SQLDataType": 8,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "WidthMax",
+                            "SourceColumn": "WidthMax",
+                            "Description": "",
+                            "SQLDataType": 8,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "ID",
+                            "SourceColumn": "ID",
+                            "Description": "ZRML_FG_ID",
+                            "SQLDataType": 4,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "Gauge",
+                            "SourceColumn": "Gauge",
+                            "Description": "ZRML_FG_GAU",
+                            "SQLDataType": 8,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        },
+                        {
+                            "Name": "Type",
+                            "SourceColumn": "Type",
+                            "Description": "ZRML_FG_PKG_TYP",
+                            "SQLDataType": 1,
+                            "MinRange": 1.0,
+                            "MaxRange": 1.0
+                        }
+                    ]
+                },
+                "Row": [
+                    {
+                        "Prod_Order": "6003458",
+                        "Sales_Order": "4020000438",
+                        "SO_Item": "000010",
+                        "Customer": "MIDWEST",
+                        "Cust_LongText": "Midwest Metals Corporation",
+                        "WidthMin": 1.02,
+                        "WidthMax": 1.02,
+                        "ID": 305,
+                        "Gauge": 102.00,
+                        "Type": "ETS"
+                    },
+                    {
+                        "Prod_Order": "6003457",
+                        "Sales_Order": "4020000435",
+                        "SO_Item": "000010",
+                        "Customer": "ENGLERT",
+                        "Cust_LongText": "Englert Incorporated",
+                        "WidthMin": 840675.00,
+                        "WidthMax": 841063.00,
+                        "ID": 305,
+                        "Gauge": 102.00,
+                        "Type": "ETS"
+                    }
+                ]
+            }
+        ]
+    }
+}
